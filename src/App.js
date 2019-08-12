@@ -11,7 +11,7 @@ import CreateUser from "./components/create-user.component";
 function App() {
   return (
     <Router>
-      <div className="container">
+      <div className="container-fluid">
         <Navbar />
         <br/>
         <Route path="/" exact component={ExercisesList} />
